@@ -13,7 +13,7 @@ body{
 
 nav{
     display: flex;
-    height: 30px;
+    height: 20px;
     padding: 5px 16px;
 }
 
@@ -28,7 +28,7 @@ nav{
   
 .menu.icon{
   padding-top: 5px;
-  margin-right: 24px;
+  margin-right: 20px;
 }
 
 .line{
@@ -36,4 +36,38 @@ nav{
     height: 1px;
     background-color: gray;
     margin: 3px 0;
+}
+
+.main{
+  background-color: rgba(0, 0, 0, 0.03);
+  margin-top: 10px;
+  padding-top: 12px;
+}
+
+.video-container{
+  padding: 0 10px;
+}
+
+.video-container--video{
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container--video iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-container--info{
+  margin-top: 10px;
+}
+.video-container--info h1{
+  font-size: 1rem;
+  font-weight: 400;
+
 }
