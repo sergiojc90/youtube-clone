@@ -17,13 +17,21 @@ body{
 
 nav{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+    grid-template-columns: 20% 60% 20%;
     height: 20px;
-    padding: 5px 16px;
+    padding-right: 10px;
 }
 
 .start{
   display: flex;
   flex-direction: row;
+}
+
+.menu-icon{
+  padding: 5px 6px 0 0;
 }
 
 .material-icons-outlined{
@@ -34,6 +42,7 @@ nav{
   display: inline-block;
   line-height: 1;
   color: rgb(85, 84, 84);
+  padding-left: 10px;
 }
 
 .material-icons-round{
@@ -45,25 +54,28 @@ nav{
   line-height: 1;
   color: var(--blue);
 }
+
 .ytd-topbar-logo-renderer{
     height: 24px;
     width: 50px;
 }
-  
-.menu-icon{
-    padding: 6px;
-}
 
 .end{
   display: flex;
+  padding-top: 10px;
+}
+
+.end a{
+  text-decoration: none
 }
 
 .material-icons--signin{
-  height: 20px;
-  border: 1px solid var(--blue);
-  border-radius: 2px;
   display: flex;
-  padding: 2px 4px;
+  margin-top: -3px;
+  margin-left: 5px;
+  border: 1px solid var(--blue);
+  border-radius: 1px;
+  padding: 2px 5px
 }
 
 .material-icons--signin p{
