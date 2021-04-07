@@ -1,3 +1,7 @@
+:root{
+  --blue:rgb(6, 95, 212);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -29,8 +33,18 @@ nav{
   font-size: 14px;
   display: inline-block;
   line-height: 1;
+  color: rgb(85, 84, 84);
 }
 
+.material-icons-round{
+  font-family: "Material Icons";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 1;
+  color: var(--blue);
+}
 .ytd-topbar-logo-renderer{
     height: 24px;
     width: 50px;
@@ -38,8 +52,32 @@ nav{
   
 .menu-icon{
     padding: 6px;
-    margin-right: 20px;
 }
+
+.end{
+  display: flex;
+}
+
+.material-icons--signin{
+  height: 20px;
+  border: 1px solid var(--blue);
+  border-radius: 2px;
+  display: flex;
+  padding: 2px 4px;
+}
+
+.material-icons--signin p{
+  font-size: 8px;
+  font-weight: 500;
+  padding-top: 4px;
+  color: var(--blue);
+}
+
+.material-icons--signin p::before{
+  content: "";
+  padding-left: 5px;
+}
+
 
 .line{
   margin: 3px 0;
