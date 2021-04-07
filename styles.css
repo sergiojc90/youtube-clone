@@ -19,6 +19,16 @@ nav{
 
 .start{
   display: flex;
+  flex-direction: row;
+}
+
+.material-icons-outlined{
+  font-family: "Material Icons";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  display: inline-block;
+  line-height: 1;
 }
 
 .ytd-topbar-logo-renderer{
@@ -26,16 +36,16 @@ nav{
     width: 50px;
 }
   
-.menu.icon{
-  padding-top: 5px;
-  margin-right: 20px;
+.menu-icon{
+    padding: 6px;
+    margin-right: 20px;
 }
 
 .line{
-    width: 12px;
-    height: 1px;
-    background-color: gray;
-    margin: 3px 0;
+  margin: 3px 0;
+  height: 1px;
+  width: 12px;
+  background-color: gray;
 }
 
 .main{
