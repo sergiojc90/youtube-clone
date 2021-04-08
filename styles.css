@@ -21,7 +21,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     margin-top: 8px;
-    height: 20px;
+    height: 56px;
     padding-right: 10px;
 }
 
@@ -38,7 +38,7 @@ nav{
   font-family: "Material Icons";
   font-style: normal;
   font-weight: normal;
-  font-size: 14px !important;
+  font-size: 24px !important;
   display: inline-block;
   line-height: 1;
   color: rgb(129, 129, 129);
@@ -48,7 +48,7 @@ nav{
   font-family: "Material Icons";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 24px;
   display: inline-block;
   line-height: 1;
   color: rgb(105, 105, 105);
@@ -59,7 +59,7 @@ nav{
   font-family: "Material Icons";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 24px;
   display: inline-block;
   line-height: 1;
   color: var(--blue);
@@ -67,8 +67,6 @@ nav{
 
 .ytd-topbar-logo-renderer{
   padding-top: 5px;
-  height: 24px;
-  width: 50px;
 }
 
 .end{
@@ -82,31 +80,26 @@ nav{
 
 .material-icons--signin{
   display: flex;
-  margin-top: -3px;
+  flex-direction: row;
+  align-items: center;
+  width: 106px;
+  height: 40px;
+  margin-top: -8px;
   margin-left: 5px;
   border: 1px solid var(--blue);
-  border-radius: 1px;
-  padding: 2px 5px
+  border-radius: 2px;
+  padding: 6px 10px
 }
 
 .material-icons--signin p{
-  font-size: 8px;
+  font-size: 1.4rem;
   font-weight: 500;
-  padding-top: 4px;
   color: var(--blue);
 }
 
 .material-icons--signin p::before{
   content: "";
   padding-left: 5px;
-}
-
-
-.line{
-  margin: 3px 0;
-  height: 1px;
-  width: 12px;
-  background-color: gray;
 }
 
 .main{
@@ -116,7 +109,7 @@ nav{
 }
 
 .video-container{
-  padding: 0 15px;
+  padding: 0 20px;
 }
 
 .video-container--video{
@@ -138,9 +131,9 @@ nav{
   margin-top: 10px;
 }
 .video-container--info h1{
-  font-size: 1rem;
+  font-size: 1.8rem;
   font-weight: 400;
-
+  line-height: 2.4rem;
 }
 
 .video-container--icons{
@@ -154,7 +147,7 @@ nav{
   flex-direction: row;
   align-items: center;
   margin-top: 1rem;
-  font-size: 0.8rem;
+  font-size: 1.4rem;
   font-weight: 400;
   color: var(--gray);
 }
@@ -165,7 +158,7 @@ nav{
   justify-content: space-between;
   align-items: flex-end;
   margin-top: 1rem;
-  font-size: 0.8rem;
+  font-size: 1.4rem;
   font-weight: 500;
   color: var(--gray);
 }
