@@ -1,6 +1,6 @@
 :root{
   --blue:rgb(6, 95, 212);
-  --gray: rgb( 96, 96, 96)
+  --gray: rgb(110, 110, 110)
 }
 
 *{
@@ -41,7 +41,7 @@ nav{
   font-size: 14px !important;
   display: inline-block;
   line-height: 1;
-  color: rgb(85, 84, 84);
+  color: rgb(129, 129, 129);
 }
 
 .material-icons-outlined{
@@ -51,7 +51,7 @@ nav{
   font-size: 14px;
   display: inline-block;
   line-height: 1;
-  color: rgb(85, 84, 84);
+  color: rgb(105, 105, 105);
   padding-left: 10px;
 }
 
@@ -116,7 +116,7 @@ nav{
 }
 
 .video-container{
-  padding: 0 10px;
+  padding: 0 15px;
 }
 
 .video-container--video{
@@ -183,11 +183,18 @@ nav{
 
 .video-container--channel{
   display: flex;
+  flex-direction: column;
   border-top: 1px solid rgb(226, 226, 226);
   margin-top: 7px;
+  padding: 10px 0;
 }
 
-.bars{
-  position: relative;
-  height: 10px;
+.video-container--channel--details{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.subscribe--button{
+  margin-left: auto;
 }
