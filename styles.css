@@ -252,22 +252,22 @@ nav{
 }
 
 .description-video--name{
-  font-size: 8px;
+  font-size: 1.4rem;
   font-weight: 500;
-  line-height: 1rem;
+  line-height: 1.6rem;
   margin-block-end: 3px;
 }
 
 .description-channel--name, .description-video--number{
   display: flex;
   align-items: center;
-  font-size: 8px;
-  line-height: 1.1rem;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
   color: var(--gray);
 }
 
 .description-channel--name .material-icons{
-  font-size: 8px !important;
+  font-size: 1.2rem !important;
   padding-left: 3px;
 }
 
