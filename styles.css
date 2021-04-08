@@ -283,6 +283,9 @@ nav{
 .comments-container-count{
   display: flex;
   align-items: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2rem;
 }
 
 .comments-container-count p{
@@ -290,7 +293,7 @@ nav{
 }
 .gray-p{
   padding-left: 5px;
-  font-size: 0.9rem;
+  font-size: 1.4rem;
   font-weight: 500;
   color: var(--gray);
 }
@@ -298,12 +301,11 @@ nav{
 .comments-container-add{
   display: flex;
   align-items: center;
-  padding-block-start: 10px;
+  padding-block-start: 24px;
 }
 
-
 .comments-container-add--user img{
-  width: 25px;
+  width: 40px;
   border-radius: 50%;
 }
 
@@ -314,7 +316,7 @@ nav{
 }
 
 .comments-container-add--public input{
-  font-size: 0.8rem;
+  font-size: 1.4rem;
   padding-block-end: 4px;
   border: none;
   width: 100%;
@@ -323,9 +325,9 @@ nav{
 }
 
 .comments-container-list{
-  margin-block-start: 15px;
+  margin-block-start: 32px;
 }
 .userphoto img{
-  width: 25px;
+  width: 4rem;
   border-radius: 50%;
 }
