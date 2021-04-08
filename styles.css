@@ -192,7 +192,31 @@ nav{
 .video-container--channel--details{
   display: flex;
   flex-direction: row;
+  align-items: center;
   gap: 10px;
+}
+
+.channel--info{
+  display: flex;
+  flex-direction: column;
+}
+.channel--name{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 8px;
+  font-weight: 500;
+  line-height: 1.3rem;
+}
+
+.channel--name .material-icons{
+  font-size: 9px !important;
+  color: rgb(90, 90, 90) !important;
+}
+
+.channel--number{
+  font-size: 7px;
+  color: var(--gray);
 }
 
 .subscribe--button{
