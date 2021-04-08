@@ -1,5 +1,6 @@
 :root{
   --blue:rgb(6, 95, 212);
+  --gray: rgb( 96, 96, 96)
 }
 
 *{
@@ -32,6 +33,16 @@ nav{
 
 .menu-icon{
   padding: 7.5px 6px 0 0;
+}
+
+.material-icons{
+  font-family: "Material Icons";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px !important;
+  display: inline-block;
+  line-height: 1;
+  color: rgb(85, 84, 84);
 }
 
 .material-icons-outlined{
@@ -131,4 +142,14 @@ nav{
   font-size: 1rem;
   font-weight: 400;
 
+}
+
+.video-container--icons{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 10px;
+  font-weight: 400;
+  color: var(--gray);
 }
