@@ -153,3 +153,13 @@ nav{
   font-weight: 400;
   color: var(--gray);
 }
+
+.video-container--icons__icon{
+  display: flex;
+  align-items: center;
+}
+
+.video-container--icons__icon span::after{
+  content: "";
+  padding-right: 5px;
+}
