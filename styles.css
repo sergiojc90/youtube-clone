@@ -206,7 +206,7 @@ nav{
   align-items: center;
   font-size: 8px;
   font-weight: 500;
-  line-height: 1.3rem;
+  line-height: 1.4rem;
 }
 
 .channel--name .material-icons{
@@ -220,5 +220,21 @@ nav{
 }
 
 .subscribe--button{
+  font-family: 'Roboto', sans-serif;;
   margin-left: auto;
+  padding: 5px 9px;
+  font-size: 0.9rem;
+  font-weight: 400;
+  background-color: rgb(204, 0, 0);
+  color: white;
+  border: none;
+}
+
+.video-container--channel--description{
+  margin-block-start: 10px;
+  padding: 0 10px 0 40px;
+  font-size: 0.8rem;
+  line-height: 1.4rem;
+
+
 }
