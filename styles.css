@@ -219,6 +219,12 @@ nav{
   color: var(--gray);
 }
 
+.channel--number .material-icons{
+  font-size: 8px !important;
+  color: rgb(90, 90, 90) !important;
+}
+
+
 .subscribe--button{
   font-family: 'Roboto', sans-serif;;
   margin-left: auto;
@@ -235,6 +241,38 @@ nav{
   padding: 0 10px 0 40px;
   font-size: 0.8rem;
   line-height: 1.4rem;
+}
 
+.related-video-list{
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid rgb(226, 226, 226);
+  gap: 5px;
+  margin: 7px 15px 0 15px;
+  padding: 10px 0; 
+}
 
+.related-video-list--item{
+  display: flex;
+  gap: 5px;
+}
+
+.description-video--name{
+  font-size: 8px;
+  font-weight: 500;
+  line-height: 1rem;
+  margin-block-end: 3px;
+}
+
+.description-channel--name, .description-video--number{
+  display: flex;
+  align-items: center;
+  font-size: 8px;
+  line-height: 1.1rem;
+  color: var(--gray);
+}
+
+.description-channel--name .material-icons{
+  font-size: 8px !important;
+  padding-left: 3px;
 }
