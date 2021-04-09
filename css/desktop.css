@@ -1,0 +1,20 @@
+.main{
+    display: grid;
+    grid-template-columns: auto 450px;
+}
+
+.video-container{
+    max-width: 1099px;
+    width: calc(100vw - 450px);
+}
+
+.related-video-list{
+    margin-right: auto;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+}
+
+.comments-container{
+    max-width: 1099px;
+}

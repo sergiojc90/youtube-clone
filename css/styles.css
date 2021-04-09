@@ -20,6 +20,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%b;
     margin-top: 8px;
     height: 56px;
     padding: 0 10px;
@@ -69,10 +70,6 @@ nav{
   display: inline-block;
   line-height: 1;
   color: var(--blue);
-}
-
-.ytd-topbar-logo-renderer{
-  padding-top: 5px;
 }
 
 .end{
@@ -136,6 +133,7 @@ nav{
 .video-container--info{
   margin-top: 10px;
 }
+
 .video-container--info h1{
   font-size: 1.8rem;
   font-weight: 400;
