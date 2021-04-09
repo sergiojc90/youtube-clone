@@ -331,9 +331,46 @@ nav{
 }
 
 .comments-container-list{
+  display: flex;
+  flex-direction: column;
   margin-block-start: 32px;
 }
+
+.comments-container-list--item{
+  display: flex;
+  flex-direction: row;
+}
+
 .userphoto img{
   width: 4rem;
   border-radius: 50%;
+  margin-inline-end: 16px;
+}
+
+.usercomment{
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+.userinfo{
+  display: flex;
+  flex-direction: row;
+}
+
+.userinfo .userinfo-username{
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 2rem;
+  margin-inline-end: 5px;
+}
+
+.userinfo .userinfo-time-added{
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: rgb(96, 96, 95);
+}
+
+.usercomment .comment{
+  margin-block-start: 5px;
 }
