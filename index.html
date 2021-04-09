@@ -21,12 +21,13 @@
                 </span>
             </div>
             <div class="logo">
-                <img src="./assets/icons/yt-logo.svg" alt="" class="logo-icon" height="24px">
+                <img src="./assets/icons/yt-logo.svg" alt="Youtube logo" class="logo-icon" height="24px">
             </div>
         </div>
         <div class="end">
-            <span class="material-icons-outlined">mic</span>
+            <div class="end-search"></div>
             <span class="material-icons-outlined">search</span>
+            <span class="material-icons-outlined">mic</span>
             <span class="material-icons-outlined">apps</span>
             <span class="material-icons-outlined">more_vert</span>
             <a class="end-button--singin" href="#">
@@ -100,7 +101,7 @@
         <section class="related-video-list">
 
             <div class="related-video-list--item">
-                <img class="thumbnail" width="168" src="https://i.ytimg.com/vi/epCOGAa7tRQ/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDYDZwQ6zSrJsvbU0nk5VelfP1X3Q">
+                <img class="thumbnail" width="168" src="https://i.ytimg.com/vi/epCOGAa7tRQ/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDYDZwQ6zSrJsvbU0nk5VelfP1X3Q" alt="Video thumbnail">
                 
                 <div class="description">
                     <div class="description-video--name">
@@ -116,7 +117,7 @@
                 </div>
             </div>
             <div class="related-video-list--item">
-                <img class="thumbnail" width="168" src="https://i.ytimg.com/vi/bDQkpNbsly4/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLD_juEEOKcr5zEp-HzvHDp7Haf7vw">
+                <img class="thumbnail" width="168" src="https://i.ytimg.com/vi/bDQkpNbsly4/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLD_juEEOKcr5zEp-HzvHDp7Haf7vw" alt="Video thumbnail">
                 
                 <div class="description">
                     <div class="description-video--name">
@@ -132,7 +133,7 @@
                 </div>
             </div>
             <div class="related-video-list--item">
-                <img class="thumbnail" width="168" src="https://i.ytimg.com/vi/jLesc5lITvo/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAYLnYQLrKmUbxIrRvf3jVgyy0rcQ">
+                <img class="thumbnail" width="168" src="https://i.ytimg.com/vi/jLesc5lITvo/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAYLnYQLrKmUbxIrRvf3jVgyy0rcQ" alt="Video thumbnail">
                 
                 <div class="description">
                     <div class="description-video--name">
@@ -148,7 +149,7 @@
                 </div>
             </div>
             <div class="related-video-list--item">
-                <img class="thumbnail" width="168" src="https://i.ytimg.com/vi/1RWOpQXTltA/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLA9_jXx3XUYVA6JPwIWaR5MWKnAZw">
+                <img class="thumbnail" width="168" src="https://i.ytimg.com/vi/1RWOpQXTltA/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLA9_jXx3XUYVA6JPwIWaR5MWKnAZw" alt="Video thumbnail">
                 
                 <div class="description">
                     <div class="description-video--name">
@@ -164,7 +165,7 @@
                 </div>
             </div>
             <div class="related-video-list--item">
-                <img class="thumbnail" width="168" src="https://i.ytimg.com/vi/csIW4W_DYX4/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAFxCk54jIJaOcmAUBWDYE0Qk04VA">
+                <img class="thumbnail" width="168" src="https://i.ytimg.com/vi/csIW4W_DYX4/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAFxCk54jIJaOcmAUBWDYE0Qk04VA" alt="Video thumbnail">
                 
                 <div class="description">
                     <div class="description-video--name">
@@ -192,7 +193,8 @@
                     <img src="https://yt3.ggpht.com/a/default-user=s48-c-k-c0x00ffffff-no-rj" alt="user defaul image">
                 </div>
                 <div class="comments-container-add--public">
-                    <input type="text" placeholder="Add a public comment...">
+                    <label for="comment"></label>
+                    <input type="text" name="comment" placeholder="Add a public comment...">
                 </div>
             </div>
 
@@ -281,7 +283,7 @@
                 <div class="comments-container-list--item">
 
                     <div class="userphoto">
-                        <img src="https://yt3.ggpht.com/ytc/AAUvwnhDpodY9g4qYk3PdNT5EHXEaXWht31WhsUJ0g=s48-c-k-c0x00ffffff-no-rj" alt="Hexa">
+                        <img src="https://yt3.ggpht.com/ytc/AAUvwnhDpodY9g4qYk3PdNT5EHXEaXWht31WhsUJ0g=s48-c-k-c0x00ffffff-no-rj" alt="User image">
                     </div>
 
                     <div class="usercomment">
