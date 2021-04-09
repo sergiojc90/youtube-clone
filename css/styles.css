@@ -321,7 +321,7 @@ nav{
   width: 100%;
 }
 .comments-container-add--public label{
-  color: var(--gray);
+  color: rgba(0, 0, 0, 0.03);;
   font-size: 0.1rem;
 }
 .comments-container-add--public input{
