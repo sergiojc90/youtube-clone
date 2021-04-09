@@ -320,7 +320,10 @@ nav{
   padding-inline-start: 10px;
   width: 100%;
 }
-
+.comments-container-add--public label{
+  color: var(--gray);
+  font-size: 0.1rem;
+}
 .comments-container-add--public input{
   font-size: 1.4rem;
   padding-block-end: 4px;
