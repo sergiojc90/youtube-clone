@@ -333,12 +333,12 @@ nav{
 .comments-container-list{
   display: flex;
   flex-direction: column;
-  margin-block-start: 32px;
 }
 
 .comments-container-list--item{
   display: flex;
   flex-direction: row;
+  margin-block-start: 30px;
 }
 
 .userphoto img{
@@ -373,4 +373,52 @@ nav{
 
 .usercomment .comment{
   margin-block-start: 5px;
+}
+
+.votes{
+  display: flex;
+  flex-direction: column;
+}
+
+.votes .material-icons{
+  font-size: 1.6rem !important;
+  font-weight: 400;
+}
+
+.votes--icons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-block-start: 10px;
+}
+
+.votes--icons__icon{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 14px;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: rgb(96, 96, 96);
+}
+
+.votes--replies{
+  display: flex;
+  flex-direction: row;
+  margin-block-start: 10px;
+  margin-inline-start: -5px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--blue);
+}
+
+.votes--replies .material-icons{
+  font-size: 2rem !important;
+  font-weight: 500;
+  color: var(--blue);
+}
+
+.votes--replies .material-icons::after{
+  content: "";
+  padding-inline-end: 10px;
 }
