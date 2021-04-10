@@ -24,6 +24,7 @@ nav{
     margin-top: 8px;
     height: 56px;
     padding: 0 10px;
+    overflow: scroll;
 }
 
 .start{
