@@ -20,11 +20,8 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
     margin-top: 8px;
-    height: 56px;
     padding: 0 10px;
-    overflow: scroll;
 }
 
 .start{
@@ -107,7 +104,6 @@ nav{
 }
 .wrap{
   background-color: rgba(0, 0, 0, 0.03);
-  min-width: 420px;
 }
 .main{
   margin-top: 10px;
@@ -425,4 +421,18 @@ nav{
 .votes--replies .material-icons::after{
   content: "";
   padding-inline-end: 10px;
+}
+
+@media (max-width:420px){
+  nav{
+    padding: 0;
+    transform: scale(0.8);
+    margin-left: -30px;
+  }
+
+  .video-container--icons, .video-container--icons-end{
+    padding: 0;
+    transform: scale(0.85);
+    margin-left: -20px;
+  }
 }
