@@ -1,16 +1,16 @@
 .main{
     display: grid;
-    grid-template-columns: auto 450px;
+    grid-template-columns: auto fit-content(500px);
+    max-width: 1594px;
+    margin: 0 auto;
 }
 
 .video-container{
     max-width: 1099px;
-    width: calc(100vw - 450px);
 }
 
 .related-video-list{
-    margin-right: auto;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     border: none;
 }
